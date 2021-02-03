@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
-Name: py-inara
-Version: 0.0.1
+Name: red-py
+Version: 0.1.0
 Summary: A library of useful tools and extensions
 Home-page: https://github.com/zhooda/py-inara.git
 Author: Zeeshan Hooda

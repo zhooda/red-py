@@ -11,7 +11,7 @@ class CoolTurtle(Turtle):
         hex_val = self.__rgb_to_hex((r, g, b))
         self.fillcolor(hex_val)
 
-    def ellipse(self, a, b):
+    def ellipse(self, a, b, deg=360):
         (cx, cy) = self.position()
         n = 100
         # draw the first point with pen up
@@ -27,10 +27,11 @@ class CoolTurtle(Turtle):
             x = cx + a*math.cos(t)*math.cos(math.radians(angle))-b*math.sin(t)*math.sin(math.radians(angle))
             y = cy + a*math.cos(t)*math.sin(math.radians(angle))+b*math.sin(t)*math.cos(math.radians(angle))
             self.goto(x,y)    
-            t += 2*math.pi/n
+            t += math.radians(-deg)/n
 
         # close the shape
-        self.goto(xi, yi)
+        if deg == 360:
+            self.goto(xi, yi)
 
     def done(self):
         TK.mainloop()

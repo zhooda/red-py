@@ -1,14 +1,14 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
-    name='py-inara',
+    name='red-py',
     version='0.1.0',
     description='A library of useful tools and extensions',
     url='https://github.com/zhooda/py-inara.git',
     author='Zeeshan Hooda',
     author_email='zhooda@protonmail.com',
     license='MIT',
-    packages=['inara'],
+    packages=find_packages(),
     install_requires=[],
     classifiers=[
         'License :: OSI Approved :: MIT License',

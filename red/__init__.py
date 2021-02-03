@@ -1,5 +1,5 @@
 """
-py-inara
+red-py
 
 A library of useful tools and extensions!
 """
