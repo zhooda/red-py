@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: py-inara
+Version: 0.1.0
+Summary: A library of useful tools and extensions
+Home-page: https://github.com/zhooda/py-inara.git
+Author: Zeeshan Hooda
+Author-email: zhooda@protonmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
